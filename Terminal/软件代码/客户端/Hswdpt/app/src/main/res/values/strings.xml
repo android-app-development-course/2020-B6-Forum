@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">华师问答平台</string>
+    <string name="title_home">主页</string>
+    <string name="title_dynamic">动态</string>
+    <string name="title_user">我的</string>
+    <string name="question">提问</string>
+    <string name="all_comment">全部评论</string>
+</resources>

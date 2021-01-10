@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <ImageView
+        android:id="@+id/login_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7.5dp"
+        android:src="@mipmap/nologin" />
+
+    <SearchView
+        android:id="@+id/home_search"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:iconifiedByDefault="false"
+        android:background="@drawable/search_layout"
+        android:showDividers="none"
+        app:queryHint="搜索联系人" />
+
+    <ImageView
+        android:id="@+id/message_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginEnd="4dp"
+        android:src="@mipmap/message"
+        android:layout_marginRight="4dp" />
+
+</LinearLayout>
